@@ -87,6 +87,12 @@ header .navigation .searchProduct i {
   color: rgb(85, 85, 85);
 }
 
+header .navigation nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 header .navigation nav ul li {
   padding: 20px 30px;
   list-style: none;
